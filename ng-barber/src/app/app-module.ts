@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
 import { Home } from './components/home/home';
 import { Queue } from './components/queue/queue';
+import { Navbar } from './common/navbar/navbar';
 
 @NgModule({
   declarations: [
     App,
     Home,
-    Queue
+    Queue,
+    Navbar
   ],
   imports: [
     BrowserModule,
